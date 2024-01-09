@@ -139,21 +139,24 @@
     padding-top: 100px;
     margin-bottom: 50px;
 }
-.red{
-        color: #F00;
-        text-align: center;
-        font-family: Inter;
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 56px;
-        text-transform: capitalize;
+
+.red {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
 }
+
 #place {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 100px 50px;
     text-align: center;
     border-radius: 16px;
 }
+
 .button-2 {
     border-radius: 8px;
     background: #F00;
@@ -165,43 +168,52 @@
 #offer {
     margin: 50px 50px;
 }
+
 .offer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
 }
+
 .col-heading {
     color: #FF0000;
     font-family: Inter;
     font-size: 24px;
 }
-.offer-1{
+
+.offer-1 {
     flex: 1;
 }
-.offer-1-heading{
+
+.offer-1-heading {
     color: #FF0000;
     font-family: Inter;
     font-size: 24px;
 }
+
 .offer-1-tittle {
     color: #070211;
     font-size: 48px;
 }
+
 .offer-1-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
 }
-.offer-2{
+
+.offer-2 {
     width: 500px;
     border-radius: 50%;
     border: 15px solid #F00;
     flex: 1;
 }
+
 .offer-2-img {
     padding: 40px;
 }
+
 .offer-3 {
     flex: 1;
 }
@@ -223,10 +235,13 @@
 /* Function Section */
 #function {
     margin: 50px 50px;
+    width: 100%;
+    height: 800px;
+    background: #FFF;
 
 }
 
-.first-part{
+.first-part {
     text-align: center;
 }
 
@@ -244,7 +259,7 @@
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 30px;
-    
+
 }
 
 .red-1 {
@@ -254,7 +269,7 @@
     margin-top: 30px;
 }
 
-.function-description{
+.function-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -265,6 +280,7 @@
 .image-container {
     position: relative;
 }
+
 .background-image {
     width: 100%;
     height: auto;
@@ -282,4 +298,48 @@
 .overlay-images {
     width: 33.33%;
     height: auto;
+}
+
+/* Portfolio section */
+#portfolio {
+    margin: 50px 50px;
+}
+
+.portfolio-heading-1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    margin-top: 120px;
+}
+
+.portfolio-heading-2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    padding: 0 330px 20px 0;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 420px;
+    padding-bottom: 50px;
+}
+
+.image-1 {
+    margin-bottom: 20px;
+}
+
+.portfolio-image {
+    display: flex;
+    gap: 24px;
+    margin-top: ;
 }
