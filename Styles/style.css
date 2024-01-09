@@ -1,41 +1,36 @@
-/*Heading Section*/
-body {
-    font-family: Merriweather;
-}
-
-.header {
-    background-image: url(../resources/Banner\ Image.png);
-    background-repeat: no-repeat;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    border-radius: 16px;
-    background: #070211 0%, rgba(7, 2, 17, 0.00) 100%;
-    position: relative;
-    margin: auto;
-}
-
-.banner-title {
-    text-align: center;
-    color: yellowgreen;
-    font-size: 32px;
-    font-weight: 400;
-    padding: 175px 530px;
+/* banner Section */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'merriweather', serif;
 }
 
 .banner-main-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: yellowgreen;
+    color: #FFF;
+    text-align: center;
     font-size: 72px;
     font-weight: 900;
-    max-width: 630px;
+    line-height: 95px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
+#banner {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
     align-items: center;
+    margin: 5% auto;
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-container {
+    background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    padding: 190px 0;
+    border-radius: 16px;
 }
